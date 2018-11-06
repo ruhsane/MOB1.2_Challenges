@@ -53,8 +53,8 @@ class FourthChallengeViewController: UIViewController {
         
         nameLabel.topAnchor.constraint(equalToSystemSpacingBelow: greenView.topAnchor, multiplier: 1).isActive=true
         nameLabel.leftAnchor.constraint(equalTo: greenView.rightAnchor, constant: 10).isActive=true
-        nameLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 10)
-        nameLabel.heightAnchor.constraint(equalToConstant: 100).isActive=true
+        nameLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -10).isActive=true
+        nameLabel.heightAnchor.constraint(equalToConstant: 80).isActive=true
         
         schoolLabel.topAnchor.constraint(equalToSystemSpacingBelow: nameLabel.bottomAnchor, multiplier: 1).isActive=true
         schoolLabel.rightAnchor.constraint(equalToSystemSpacingAfter: nameLabel.rightAnchor, multiplier: 1).isActive=true
