@@ -1,15 +1,15 @@
 //
-//  Layout_Essentials_ChallengeTests.swift
-//  Layout-Essentials-ChallengeTests
+//  Layout_Essentials_ChallengesTests.swift
+//  Layout-Essentials_ChallengesTests
 //
-//  Created by Ruhsane Sawut on 11/1/18.
-//  Copyright © 2018 Ruhsane Sawut. All rights reserved.
+//  Created by Ruhsane Sawut on 11/7/18.
+//  Copyright © 2018 ruhsane. All rights reserved.
 //
 
 import XCTest
-@testable import Layout_Essentials_Challenge
+@testable import Layout_Essentials_Challenges
 
-class Layout_Essentials_ChallengeTests: XCTestCase {
+class Layout_Essentials_ChallengesTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

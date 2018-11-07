@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Layout-Essentials-Challenge
+//  Layout-Essentials_Challenges
 //
-//  Created by Ruhsane Sawut on 11/1/18.
-//  Copyright © 2018 Ruhsane Sawut. All rights reserved.
+//  Created by Ruhsane Sawut on 11/7/18.
+//  Copyright © 2018 ruhsane. All rights reserved.
 //
 
 import UIKit
