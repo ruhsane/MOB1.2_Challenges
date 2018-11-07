@@ -52,7 +52,7 @@
 		9D7C6AF8219180010075FEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D7C6B042191821A0075FEE2 /* SecondChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondChallengeViewController.swift; sourceTree = "<group>"; };
 		9D7C6B062191848D0075FEE2 /* ThirdChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdChallengeViewController.swift; sourceTree = "<group>"; };
-		9D7C6B082191889E0075FEE2 /* FourthChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthChallengeViewController.swift; sourceTree = "<group>"; };
+		9D7C6B082191889E0075FEE2 /* FourthChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthChallengeViewController.swift; sourceTree = "<group>"; tabWidth = 3; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

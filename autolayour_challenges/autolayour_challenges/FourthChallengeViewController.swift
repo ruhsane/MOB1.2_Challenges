@@ -22,9 +22,9 @@ class FourthChallengeViewController: UIViewController {
         nameLabel.text = "Ruhsane Sawut"
         nameLabel.font = .boldSystemFont(ofSize: 30)
         nameLabel.numberOfLines = 0
-        nameLabel.lineBreakMode = .byTruncatingTail
         nameLabel.translatesAutoresizingMaskIntoConstraints=false
         return nameLabel
+        
     }()
     
     let schoolLabel: UILabel = {
@@ -54,8 +54,8 @@ class FourthChallengeViewController: UIViewController {
         nameLabel.topAnchor.constraint(equalToSystemSpacingBelow: greenView.topAnchor, multiplier: 1).isActive=true
         nameLabel.leftAnchor.constraint(equalTo: greenView.rightAnchor, constant: 10).isActive=true
         nameLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -10).isActive=true
-        nameLabel.heightAnchor.constraint(equalToConstant: 80).isActive=true
-        
+        nameLabel.heightAnchor.constraint(greaterThanOrEqualToConstant: 50).isActive=true
+
         schoolLabel.topAnchor.constraint(equalToSystemSpacingBelow: nameLabel.bottomAnchor, multiplier: 1).isActive=true
         schoolLabel.rightAnchor.constraint(equalToSystemSpacingAfter: nameLabel.rightAnchor, multiplier: 1).isActive=true
         schoolLabel.widthAnchor.constraint(equalTo: nameLabel.widthAnchor, multiplier: 1).isActive=true
